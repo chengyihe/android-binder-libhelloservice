@@ -6,7 +6,7 @@ LOCAL_SRC_FILES += \
 	IHelloService.cpp \
 	HelloService.cpp
 
-LOCAL_SHARED_LIBRARIES += \
+LOCAL_STATIC_LIBRARIES += \
 	libbinder \
 	libcutils \
 	libutils \
